@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bar Code Generator</title>
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.6/dist/JsBarcode.all.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="page-one">
+                <input type="text" name="" id="" placeholder="Enter the value "> <br/>
+                <select name="" id="" class="select-1">
+                    <option value="">choose your format</option>
+                    <option value="CODE128">CODE128</option>
+                    <option value="CODE39">CODE39</option>
+                    <option value="MSI10">MSI10</option>
+                    <option value="pharmacode">PHARMACODE</option>
+                    <option value="EAN13">EAN13</option>
+                    <option value="codabar">CODABAR</option>
+
+                </select> <br/>
+                <select name="" id="" class="select-2">
+                    <option value="">can show the display value</option>
+                    <option value="true">Yes</option>
+                    <option value="false">No</option>
+                </select> <br/>
+                <button class="gnt">Generate</button> <br/>
+                <svg id="barcode" width="100%"></svg> <br/>
+                <button class="prt">PRINT</button> <br/>
+            </div>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main{
+    border: 2px solid rgb(150, 150, 150);
+    padding: 1.8rem;
+}
+
+.main input{
+    width: 100%;
+    padding: 3px 0 3px 6px;
+}
+
+select{
+    width: 100%;
+    padding:3px 14px 3px 6px;
+    margin: 10px;
+}
+
+button{
+    width: 100%;
+    padding: 3px 0 3px 6px;
+}
+
+#barcode{
+    width: 100%;
+}
+
